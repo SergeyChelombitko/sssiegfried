@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+body{
+        border: 2px solid red;
+    }
+header{
+    display: flex;
+}
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.logo img{
+    margin-top: 30px;
+}
+a{
+    font-family:'Roboto', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    color: #AAAAAA;
+    display: flex;
+    margin: 30px;
+}
+.headerinfo{
+    display: flex;
+}
+nav{
+    display: flex;
+   margin-top: 15px;
+   margin-left: 60px;
+}
+nav button{
+    margin-top: 25px;
+    width: 185.68px;
+    height: 41.2px;
+    background: #38BCEA;
+    border: white;
+}
+nav button a{
+    margin-top: 12px;
+    color: white;
+}
+.about a{
+    color: black;
+    font-family: 'Panton Thin';
+    src: url('Panton-Thin.eot');
+    src: url('Panton-Thin.eot?#iefix') format('embedded-opentype'),
+    url('Panton-Thin.woff') format('woff'),
+    url('Panton-Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.about a:hover{
+    color: black;
+}
+nav button:hover{
+    transition: all 1s;
+    background: #ffffff;
+    }
+nav a:hover{
+color: #38BCEA;
+}
+nav button a:hover{
+    transition: all 1s;
+    color: black;
+}
+.pic img{
+    margin-top: 30px;
+    width: 19px;
+    height: 19px;
+}
+.con img{
+    margin-top: 30px;
+    width: 19px;
+    height: 19px;
+    margin-left: 20.86px;
+}
+.info{
+background-image: url(../img/background.png);
+min-height: 45vh;
+background-size: 1766.29px;
+background-repeat: no-repeat;
+}
+.info p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #6F6F6F;
+}
+.info p:nth-child(1){
+    margin-top: 146.32px;
+}
+.info h1{
+font-family: 'Panton Thin';
+src: url('Panton-Thin.eot');
+src: url('Panton-Thin.eot?#iefix') format('embedded-opentype'),
+url('Panton-Thin.woff') format('woff'),
+url('Panton-Thin.ttf') format('truetype');    
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 104.19%;
+color: #1A3444
+}
+.info button {
+    width: 215.86px;
+    background: #38BCEA;
+    margin-top: 37px;
+}
+.info button a{
+    color: white;
+} 
+.info button:hover{
+    background : none;
+}
+.info button a:hover{
+    color: black;
+} 
+.preferences{
+    display: flex;
+}
+.pref{ 
+display: flex;
+position: absolute;
+margin-top: 76.87px;
+background-color: rgba(139, 255, 6, 0.4)
+}
+.pref:nth-child(1){
+    width: 769.18px;
+    margin-right: 6.47px;
+}
+.pref:nth-child(2){
+    width: 368.71px;
+    margin-left: 775.64px;
+    margin-right: 6.47px;
+}
+.pref:nth-child(3){
+    width: 769.18px;
+    margin-left: 1150.82px;
+    margin-right: 6.47px;
+}
+.pref img{
+    margin-right: 37.21px;
+}
+.pref img{
+    margin-left: 19.01%;;
+    height: 50px;
+} 
+.services h2 {
+    font-family: 'Panton';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 59px;
+}
+.services p{
+    font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+color: #02ffdd;
+}
+.services button{
+    width: 297.96px;
+    background: rgb(134, 77, 77);
+}
+.services button a{
+    color: white;
+    font-family: 'Panton Thin';
+src: url('Panton-Thin.eot');
+src: url('Panton-Thin.eot?#iefix') format('embedded-opentype'),
+url('Panton-Thin.woff') format('woff'),
+url('Panton-Thin.ttf') format('truetype'); 
+font-weight: 700;
+font-size: 26px;
+line-height: 32px;
+margin-left: 60px;
+ }
+ .services button img{
+    align-items: center;
+ }
+
